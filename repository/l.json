@@ -33,6 +33,40 @@
 			]
 		},
 		{
+			"name": "Language - Italian - Italiano",
+			"author": ["PLIO", "nixxo"],
+			"details": "https://github.com/nixxo/SublimeTextLanguageItaliano",
+			"labels": ["spell check", "dictionary", "italian"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Language - Latin",
+			"details": "https://github.com/fawzisal/SublimeTextLanguageLatin",
+			"labels": ["spell check", "dictionary", "latin"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Language - Mongolian",
+			"details": "https://github.com/bataak/sublime-dict-mn",
+			"labels": ["mongolian", "spell check", "hunspell", "dictionary"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Language - Spanish",
 			"description": "Spanish spelling language for Sublime Text - Diccionario de Español para Sublime Text",
 			"author": ["CAERMALO"],
@@ -165,7 +199,7 @@
 		{
 			"name": "Laravel 5 Snippets",
 			"previous_names": ["Laravel Five Snippets"],
-			"details": "https://github.com/Lykegenes/laravel-5-snippets",
+			"details": "https://github.com/patricksamson/laravel-5-snippets",
 			"labels": ["snippets"],
 			"releases": [
 				{
@@ -308,6 +342,17 @@
 			]
 		},
 		{
+			"name": "Laravel Lang",
+			"details": "https://github.com/mariovalney/laravel-lang-for-sublime",
+			"labels": ["laravel", "helper", "snippets", "lang", "l10n", "formatting"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Laravel Migrations Snippets",
 			"details": "https://github.com/marceloxp/laravel_migration_snippets",
 			"labels": ["laravel","laravel-framework","sublime-text-3","sublime-text","sublime-snippets"],
@@ -438,16 +483,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LaTeX Track Changes",
-			"details": "https://github.com/rioderaca/LaTeX-Track-Changes",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -683,6 +718,16 @@
 			]
 		},
 		{
+			"name": "LedgerTools",
+			"details": "https://github.com/etienne-monier/LedgerTools",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LeekScript Syntax",
 			"details": "https://github.com/GuimDev/LeekScript-Sublime",
 			"releases": [
@@ -729,7 +774,11 @@
 			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -785,33 +834,12 @@
 			]
 		},
 		{
-			"name": "lestle",
-			"details": "https://github.com/lewislepton/lestle.tmTheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Levels",
 			"details": "https://github.com/mazurov/sublime-levels",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "LFA (LearnForward Author) Package",
-			"details": "https://github.com/learnfwd/LFA-Package",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -967,6 +995,17 @@
 			]
 		},
 		{
+			"name": "Limegrass Color Scheme",
+			"details": "https://github.com/saleh49/Limegrass",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "LimitTabs",
 			"details": "https://github.com/maximilize/LimitTabs",
 			"releases": [
@@ -1011,17 +1050,6 @@
 			"name": "LineJumper",
 			"details": "https://github.com/hypebeast/LineJumper",
 			"labels": ["editor"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LineMessages",
-			"details": "https://github.com/nfaggian/SublimeLineMessages",
-			"labels": ["linting", "tool execution"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1126,6 +1154,17 @@
 			"releases": [
 				{
 					"sublime_text": ">3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "liquidsoap",
+			"details": "https://github.com/saranrapjs/sublime-liquidsoap-syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1258,11 +1297,11 @@
 			]
 		},
 		{
-			"name": "LiveStamps",
-			"details": "https://github.com/TundraTech/LiveStamps/",
+			"name": "LiveServer",
+			"details": "https://github.com/molnarmark/sublime-live-server",
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1372,19 +1411,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Locate",
-			"details": "https://github.com/sergey-kucher/SublimeLocate",
-			"author": "sergey-kucher",
-			"labels": ["locate", "updatedb", "quick file open"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["osx", "linux"],
-					"tags": true
 				}
 			]
 		},
@@ -1591,11 +1617,33 @@
 			]
 		},
 		{
+			"name": "Lotus Color Scheme",
+			"details": "https://github.com/luxelego/lotus_color_scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Louk",
 			"details": "https://github.com/louk-lang/louk-editor-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LOVELY2D",
+			"details": "https://github.com/kevinfiol/LOVELY2D",
+			"labels": ["language syntax", "lua"],
+			"releases": [
+				{
+					"sublime_text": ">=4102",
 					"tags": true
 				}
 			]
@@ -1623,16 +1671,6 @@
 			]
 		},
 		{
-			"name": "LsBookmarks",
-			"details": "https://github.com/ibensw/LsBookmarks",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "LSCheckstyle",
 			"details": "https://github.com/kauboy26/LimeStyle",
 			"releases": [
@@ -1649,195 +1687,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP",
-			"details": "https://github.com/sublimelsp/LSP",
-			"labels": ["auto-complete", "linting", "formatting", "code navigation", "intellisense"],
-			"releases": [
-				{
-					"sublime_text": "3154 - 4069",
-					"tags": "3154-"
-				},
-				{
-					"sublime_text": ">=4070",
-					"tags": "4070-"
-				}
-			]
-		},
-		{
-			"name": "LSP-bash",
-			"details": "https://github.com/sublimelsp/LSP-bash",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-css",
-			"details": "https://github.com/sublimelsp/LSP-css",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-dockerfile",
-			"details": "https://github.com/sublimelsp/LSP-dockerfile",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-elixir",
-			"details": "https://github.com/sublimelsp/LSP-elixir",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-elm",
-			"details": "https://github.com/sublimelsp/LSP-elm",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-eslint",
-			"details": "https://github.com/sublimelsp/LSP-eslint",
-			"releases": [
-				{
-					"sublime_text": "3092 - 3999",
-					"tags": "st3-"
-				},
-				{
-					"sublime_text": ">=4000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-html",
-			"details": "https://github.com/sublimelsp/LSP-html",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-intelephense",
-			"details": "https://github.com/sublimelsp/LSP-intelephense",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-json",
-			"details": "https://github.com/sublimelsp/LSP-json",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-metals",
-			"details": "https://github.com/scalameta/metals-sublime",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-promql",
-			"details": "https://github.com/nevill/LSP-promql",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-serenata",
-			"details": "https://github.com/Cloudstek/LSP-serenata",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-stylelint",
-			"details": "https://github.com/sublimelsp/LSP-stylelint",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-tagml",
-			"details": "https://github.com/HuygensING/LSP-tagml",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-typescript",
-			"details": "https://github.com/sublimelsp/LSP-typescript",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-vue",
-			"details": "https://github.com/sublimelsp/LSP-vue",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "LSP-yaml",
-			"details": "https://github.com/sublimelsp/LSP-yaml",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1963,6 +1812,19 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "LuaVEXT",
+			"details": "https://github.com/MajorVictory/LuaVEXT",
+			"labels": [
+				"auto-complete", "language syntax", "snippets", "lua", "ebx"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]

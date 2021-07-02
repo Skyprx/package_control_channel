@@ -34,12 +34,16 @@
 		},
 		{
 			"name": "Zeal",
-			"details": "https://github.com/vaanwd/Zeal",
-			"author": "vaanwd",
+			"details": "https://github.com/SublimeText/Zeal",
+			"author": ["vaanwd", "FichteFoll"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3170",
+					"tags": "st2-v"
+				},
+				{
+					"sublime_text": ">=3170",
+					"tags": true
 				}
 			]
 		},
@@ -96,15 +100,6 @@
 				{
 					"sublime_text": ">2999",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/mimopo/ZenGarden",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -170,6 +165,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "ZipContents",
+			"details": "https://github.com/mawelborn/ZipContents",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -254,17 +259,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Zucchini",
-			"details": "https://github.com/zucchini-src/zucchini.tmbundle",
-			"labels": ["language syntax", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},

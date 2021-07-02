@@ -34,12 +34,13 @@
 			]
 		},
 		{
-			"name": "RabbitVCS",
-			"details": "https://github.com/lerous/sublime-RabbitVCS",
+			"name": "Ra Spring",
+			"details": "https://github.com/vbasky/RaSpring",
+			"labels": ["color scheme"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -61,17 +62,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Rails Developer Snippets",
-			"details": "https://github.com/j10io/railsdev-sublime-snippets",
-			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -397,17 +387,6 @@
 			]
 		},
 		{
-			"name": "Rant",
-			"details": "https://github.com/RantLang/Sublime-Rant",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "RAPID Syntax Highlighting",
 			"details": "https://github.com/mfrench1989/RAPID-Syntax-Highlighting",
 			"labels": ["language syntax"],
@@ -439,9 +418,8 @@
 			]
 		},
 		{
-			"name": "Raydric - Color Scheme",
-			"details": "https://github.com/raydric/raydric-color-scheme",
-			"labels": ["color scheme"],
+			"name": "Razor",
+			"details": "https://github.com/joseph-turner/Razor",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -450,12 +428,14 @@
 			]
 		},
 		{
-			"name": "Razor",
-			"details": "https://github.com/joseph-turner/Razor",
+			"name": "Razor C# Syntax",
+			"details": "https://github.com/LoneBoco/razor-sublime",
+			"description": "Razor C# .cshtml language syntax for Sublime Text 4.",
+			"labels": ["language syntax", "razor", "c#", "cshtml"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=4075",
+					"tags": true
 				}
 			]
 		},
@@ -498,6 +478,16 @@
 				{
 					"sublime_text": ">=3000",
 					"platforms": "osx",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Reach IDE",
+			"details": "https://github.com/chrisnevers/reach-ide-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -843,6 +833,17 @@
 			]
 		},
 		{
+			"name": "RedEye",
+			"details": "https://github.com/mattmag/RedEye",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": ">=3149",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Redlime",
 			"details": "https://github.com/tosher/Redlime",
 			"labels": ["Redmine", "Bug tracking", "Project management"],
@@ -951,6 +952,17 @@
 			]
 		},
 		{
+			"name": "RegexPortfolio",
+			"previous_names": ["Regex Portfolio"],
+			"details": "https://github.com/KaminoU/regex_portfolio",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Registers",
 			"details": "https://github.com/BernardoAbreu/Registers",
 			"releases": [
@@ -1027,6 +1039,16 @@
 		{
 			"name": "rem-unit",
 			"details": "https://github.com/fisker/rem-unit",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Remember Minimap Setting",
+			"details": "https://github.com/ryanpcmcquen/sublime_text_remember_minimap_setting",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1326,6 +1348,16 @@
 			]
 		},
 		{
+			"name": "ReScript",
+			"details": "https://github.com/rescript-lang/rescript-sublime",
+			"releases": [
+				{
+					"sublime_text": ">=3118",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Resesif Color Scheme",
 			"details": "https://github.com/carloscuesta/resesif",
 			"labels": ["color scheme"],
@@ -1353,6 +1385,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Resolve Javascript Modules",
+			"author": "Thomas Welter",
+			"details": "https://github.com/thomaswelter/Resolve-Javascript-Modules",
+			"labels": ["auto-complete", "javascript", "browser", "js", "completions", "modules"],
+			"releases": [
+				{
+					"sublime_text": ">=3200",
+					"tags": true
 				}
 			]
 		},
@@ -1410,6 +1454,17 @@
 			]
 		},
 		{
+			"name": "RestructuredText Improved",
+			"details": "https://github.com/adamchainz/sublime-rst-improved",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Retro Computers Color Schemes",
 			"details": "https://github.com/idleberg/RetroComputers.tmTheme",
 			"labels": ["color scheme"],
@@ -1417,16 +1472,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Retrosheet Syntax",
-			"details": "https://github.com/cantpitch/Retrosheet-Syntax",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
 				}
 			]
 		},
@@ -1486,10 +1531,20 @@
 			"details": "https://github.com/ISSOtm/sublime-RGBDS",
 			"labels": ["language syntax", "game boy", "rgbds"],
 			"previous_names": ["Z80 Assembly (RGBDS)"],
-			"author": "Eldred Habert",
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Rhai",
+			"details": "https://github.com/rhaiscript/sublime-rhai",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -1528,6 +1583,17 @@
 			]
 		},
 		{
+			"name": "ride",
+			"details": "https://github.com/frankaemika/ride-sublime",
+			"labels": ["lf", "Lingua Franka", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Riemann Completions",
 			"details": "https://github.com/jarretth/sublime-riemann-autocomplete",
 			"labels": ["completion"],
@@ -1556,6 +1622,39 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RISC OS CMHG Syntax",
+			"details": "https://github.com/gerph/sublimetext-riscoscmhg-syntax",
+			"labels": ["syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RISC OS Command Syntax",
+			"details": "https://github.com/gerph/sublimetext-riscoscommand-syntax",
+			"labels": ["syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RISC-V Assembly Syntax",
+			"details": "https://github.com/fabianschuiki/sublime-riscv-assembly",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -2180,16 +2279,6 @@
 			]
 		},
 		{
-			"name": "RubyMotion Sparrow Framework Autocomplete",
-			"details": "https://github.com/ZaBlanc/RubyMotionSparrowSublimeCompletions",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "RubyMotionBuilder",
 			"details": "https://github.com/RubyMotionJP/SublimeRubyMotionBuilder",
 			"releases": [
@@ -2233,6 +2322,16 @@
 		{
 			"name": "RulerColumn",
 			"details": "https://github.com/gerardroche/sublime-ruler-column",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RulerProximityIndicator",
+			"details": "https://github.com/monsieurluge/ruler_proximity_indicator",
 			"releases": [
 				{
 					"sublime_text": ">=3000",

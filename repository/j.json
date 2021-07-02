@@ -2,17 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "J Language",
-			"details": "https://github.com/bcj/JSyntax",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Jack",
 			"details": "https://github.com/swarn/sublime-jack",
 			"labels": ["language syntax"],
@@ -375,16 +364,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "JavaScript Multiline",
-			"details": "https://github.com/metatribal/sublime-jsmultiline",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -781,6 +760,17 @@
 			]
 		},
 		{
+			"name": "Jq",
+			"details": "https://gitlab.com/jiehong/sublime_jq",
+			"labels": ["interactive", "jq"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JQ Syntax",
 			"details": "https://github.com/zogwarg/SublimeJQ",
 			"labels": ["language syntax", "jq", "stedolan"],
@@ -889,16 +879,6 @@
 			]
 		},
 		{
-			"name": "JS Coverage",
-			"details": "https://github.com/genbit/SublimeJSCoverage",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "JS Minify",
 			"details": "https://github.com/adampresley/sublime-js-minify",
 			"releases": [
@@ -923,16 +903,6 @@
 			"name": "JS Var Shortcuts",
 			"details": "https://github.com/twolfson/sublime-js-var-shortcuts",
 			"labels": ["formatting", "text manipulation", "js", "javascript", "var", "variable"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "JS-firebug",
-			"details": "https://github.com/sebcl/JS-firebug",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -975,7 +945,11 @@
 			"labels": ["javascript", "syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3092",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -1272,7 +1246,18 @@
 				{
 					"sublime_text": "*",
 					"platforms": "osx",
-					"branch": "master"
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "JSTemplatify",
+			"details": "https://github.com/mjrinker/JSTemplatify",
+			"labels": ["javascript", "formatting", "format"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1362,6 +1347,16 @@
 			]
 		},
 		{
+			"name": "Jumpy",
+			"details": "https://github.com/jgburet/jumpy-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "JUnit Completions",
 			"details": "https://github.com/tushortz/JUnit-Completions",
 			"labels": ["Java", "completions", "completion"],
@@ -1376,17 +1371,6 @@
 			"name": "Junos",
 			"details": "https://github.com/nprintz/junos-sublime-pkg",
 			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Junos Snippets",
-			"details": "https://github.com/pewpewp3w/sublime-juniper-snippets",
-			"labels": ["snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",

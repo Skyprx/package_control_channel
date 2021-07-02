@@ -30,7 +30,11 @@
 			"labels": ["language syntax", "javascript"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "<4000",
+					"tags": "st3-"
+				},
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -260,6 +264,17 @@
 				"snippets",
 				"language syntax"
 			],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "BBC BASIC Syntax",
+			"details": "https://github.com/gerph/sublimetext-bbcbasic-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -600,7 +615,7 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"branch": "master"
+					"branch": "main"
 				}
 			]
 		},
@@ -954,6 +969,17 @@
 			]
 		},
 		{
+			"name": "blif_sis",
+			"details": "https://github.com/mario33881/sublime-blif_sis",
+			"labels": ["auto-complete", "language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BlinkScript",
 			"details": "https://github.com/diegoinacio/blinkScript-sublime",
 			"releases": [
@@ -1174,11 +1200,13 @@
 			]
 		},
 		{
-			"name": "Borat Ipsum",
-			"details": "https://github.com/Bakke/Borat-Ipsum",
+			"name": "BootstrapAutocomplete",
+			"details": "https://github.com/jfcherng-sublime/ST-BootstrapAutocomplete",
+			"author": ["jfcherng"],
+			"labels": ["auto-complete"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4105",
 					"tags": true
 				}
 			]
@@ -1190,17 +1218,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Boron Color Scheme",
-			"details": "https://github.com/mjio/boron.tmtheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -1424,17 +1441,6 @@
 			]
 		},
 		{
-			"name": "Broadcast Color Scheme",
-			"details": "https://github.com/vinkla/broadcast-theme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Broken Window",
 			"details": "https://github.com/ekalber/broken-window",
 			"labels": ["ruby on rails", "ruby", "static code analysis"],
@@ -1528,6 +1534,17 @@
 			]
 		},
 		{
+			"name": "BTstack HCI Packet Log Converter",
+			"details": "https://github.com/bluekitchen/btstack-packet-log",
+			"labels": ["BTstack", "Bluetooth", "develop"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Bubububububad and Boneyfied Color Schemes",
 			"details": "https://github.com/eibbors/Bubububububad",
 			"labels": ["color scheme"],
@@ -1535,15 +1552,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"details": "https://bitbucket.org/lewisjosh/buffersbackup",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "default"
 				}
 			]
 		},
@@ -1611,6 +1619,17 @@
 			]
 		},
 		{
+			"name": "Buildview",
+			"previous_names": ["sublime-text-2-buildview", "sublime-text-buildview"],
+			"details": "https://github.com/rctay/sublime-text-buildview",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "BuildX",
 			"details": "https://github.com/cj1128/sublime-buildx",
 			"releases": [
@@ -1654,20 +1673,20 @@
 			]
 		},
 		{
-			"name": "Bunting Language",
-			"details": "https://github.com/xhacker/Bunting.tmLanguage",
-			"labels": ["language syntax"],
+			"name": "Bunch",
+			"details": "https://github.com/ttscoff/Sublime-Bunch",
 			"releases": [
 				{
 					"sublime_text": "*",
+					"platforms": ["osx"],
 					"tags": true
 				}
 			]
 		},
 		{
-			"name": "Business Catalyst Liquid Snippets",
-			"details": "https://github.com/PhilMarcuson/business-catalyst-sublime-plugin",
-			"labels": ["snippets"],
+			"name": "Bunting Language",
+			"details": "https://github.com/xhacker/Bunting.tmLanguage",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",

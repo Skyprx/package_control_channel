@@ -2,16 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "Hacker News",
-			"details": "https://github.com/timdavies/HackerNews-SublimeTextPlugin",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Hacker News Reader",
 			"details": "https://github.com/Dimillian/Sublime-Hacker-News-Reader",
 			"releases": [
@@ -147,6 +137,17 @@
 			"name": "Hammer for Mac Snippets",
 			"details": "https://github.com/dpskvn/Hammer-Snippets",
 			"labels": ["snippets", "hammer", "mac"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hammock Color Scheme",
+			"details": "https://github.com/AlanLynn/hammock-sublime-textmate",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -293,15 +294,6 @@
 			]
 		},
 		{
-			"details": "https://bitbucket.org/dotCypress/haskellbuddy",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "default"
-				}
-			]
-		},
-		{
 			"name": "Haxe",
 			"details": "https://github.com/clemos/haxe-sublime-bundle",
 			"previous_names": ["HaXe"],
@@ -309,16 +301,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "haxelang",
-			"details": "https://github.com/ix/sublime-haxelang",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -386,7 +368,7 @@
 		},
 		{
 			"name": "Helium",
-			"details": "https://github.com/pykong/Helium",
+			"details": "https://github.com/sschuhmann/Helium",
 			"previous_names": ["Hermes"],
 			"releases": [
 				{
@@ -470,15 +452,6 @@
 			]
 		},
 		{
-			"details": "https://bitbucket.org/asmodai/hexcode",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "default"
-				}
-			]
-		},
-		{
 			"name": "hextoASCII",
 			"details": "https://github.com/ALLZ/hextoASCII",
 			"labels": ["text manipulation", "hexadecimal", "ASCII", "converter"],
@@ -495,15 +468,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": "st3-"
-				}
-			]
-		},
-		{
-			"details": "https://bitbucket.org/thejeshgn/hg4subl",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "default"
 				}
 			]
 		},
@@ -647,6 +611,17 @@
 			]
 		},
 		{
+			"name": "Highlime",
+			"details": "https://github.com/alex-pobeditel-2004/highlime",
+			"labels": ["color scheme", "experimental"],
+			"releases": [
+				{
+					"sublime_text": ">=3149",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hipster",
 			"details": "https://github.com/bjarneo/hipster",
 			"releases": [
@@ -677,12 +652,13 @@
 			]
 		},
 		{
-			"name": "Hivacruz Color Scheme",
+			"name": "Hivacruz Theme",
+			"previous_names": ["Hivacruz Color Scheme"],
 			"details": "https://github.com/kinoute/hivacruz-sublime-theme",
 			"labels": ["color scheme", "theme", "hivacruz", "dark"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3211",
 					"tags": true
 				}
 			]
@@ -741,15 +717,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/wpp1983/hlsl",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -998,16 +965,6 @@
 			]
 		},
 		{
-			"name": "howdoi",
-			"details": "https://github.com/surjikal/sublime-howdoi",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "HScript",
 			"details": "https://github.com/teared/HScript",
 			"labels": ["language syntax"],
@@ -1042,16 +999,6 @@
 		{
 			"name": "HTML Boilerplate",
 			"details": "https://github.com/sloria/sublime-html5-boilerplate",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "HTML Compressor",
-			"details": "https://github.com/darkdelphin/Html-compressor",
 			"releases": [
 				{
 					"sublime_text": "*",

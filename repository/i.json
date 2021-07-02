@@ -237,18 +237,6 @@
 			]
 		},
 		{
-			"name": "iLorem",
-			"details": "https://github.com/imasood/iLorem",
-			"labels": ["lorem", "ilorem", "loremipsum", "farsi(persian)", "english", "italian", "spanish", "polski"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Image2Base64",
 			"details": "https://github.com/tm-minty/sublime-text-2-image2base64",
 			"labels": ["image manipulation", "base64", "image", "converting"],
@@ -487,6 +475,17 @@
 			]
 		},
 		{
+			"name": "IncrementalDiff",
+			"details": "https://github.com/AmjadHD/sublime_incremental_diff",
+			"labels": ["diff", "diff/merge"],
+			"releases": [
+				{
+					"sublime_text": ">=3200",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Incrementor",
 			"details": "https://github.com/eBookArchitects/Incrementor",
 			"releases": [
@@ -670,11 +669,17 @@
 		},
 		{
 			"name": "INI",
-			"details": "https://github.com/clintberry/sublime-text-2-ini",
+			"details": "https://github.com/jwortmann/ini-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"base": "https://github.com/clintberry/sublime-text-2-ini",
+					"sublime_text": "<3092",
 					"branch": "master"
+				},
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -781,16 +786,6 @@
 			]
 		},
 		{
-			"name": "Insert Filepath",
-			"details": "https://github.com/Bakke/Insert-Filepath",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Insert Nums",
 			"author": ["jbrooksuk", "FichteFoll"],
 			"details": "https://github.com/jbrooksuk/InsertNums",
@@ -826,17 +821,6 @@
 			]
 		},
 		{
-			"name": "Inspr",
-			"details": "https://github.com/wzhix/inspr",
-			"labels": ["translate", "chinese", "naming"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Instacode",
 			"details": "https://github.com/lindskogen/InstacodeSublime",
 			"releases": [
@@ -847,17 +831,6 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "st2"
-				}
-			]
-		},
-		{
-			"name": "InstaGoogling",
-			"details": "https://github.com/Ivanca/InstaGoogling",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["windows"],
-					"tags": true
 				}
 			]
 		},
@@ -902,6 +875,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3070",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "INTENS Language",
+			"details": "https://github.com/anticultist/sublime-intenslang",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3103",
 					"tags": true
 				}
 			]
@@ -1011,12 +995,12 @@
 			]
 		},
 		{
-			"name": "io Node Framework",
-			"details": "https://github.com/justind000/ionode_sublime_plugin",
+			"name": "Ion Syntax",
+			"details": "https://github.com/SevenO2/ion-sublime-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"platforms": ["windows", "linux"],
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1128,18 +1112,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "iReset",
-			"details": "https://github.com/imasood/iReset",
-			"labels": ["css reset", "css", "ireset", "normalize", "html5doctor"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": "*",
 					"tags": true
 				}
 			]

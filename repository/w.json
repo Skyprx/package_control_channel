@@ -69,17 +69,6 @@
 			]
 		},
 		{
-			"name": "WarpScript",
-			"details": "https://github.com/cityzendata/sublime-warpscript",
-			"labels": ["syntax", "highlight", "auto-complete", "snippets"],
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Waxeye",
 			"details": "https://github.com/tijn/sublime-waxeye",
 			"releases": [
@@ -94,18 +83,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3143",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "WD AngularJS Snippets",
-			"details": "https://github.com/k3v3n/wd-angular-js-snippets",
-			"labels": ["autocomplete", "snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"platforms": "*",
 					"tags": true
 				}
 			]
@@ -150,6 +127,18 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "webAgent",
+			"previous_names": ["WebAgent"],
+			"details": "https://github.com/seanfagan/webagent_syntax",
+			"labels": ["webagent", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -262,6 +251,17 @@
 			]
 		},
 		{
+			"name": "WebIDL",
+			"details": "https://github.com/vinyldarkscratch/WebIDL-Sublime",
+			"readme": "https://raw.githubusercontent.com/vinyldarkscratch/WebIDL-Sublime/main/README.md",
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Webloader",
 			"details": "https://github.com/rozsahegyi/sublime-webloader",
 			"releases": [
@@ -335,17 +335,6 @@
 			]
 		},
 		{
-			"name": "WeSnipp Add",
-			"details": "https://github.com/osternaudClem/Sublime-WeSnipp-Save",
-			"labels": ["wesnipp", "snippet"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Wget",
 			"details": "https://github.com/Oblongmana/Sublime-Wget",
 			"releases": [
@@ -367,11 +356,23 @@
 		{
 			"name": "White Night Color Scheme",
 			"details": "https://github.com/strongliang/WhiteNight.tmTheme",
+			"labels": ["color scheme"],
 			"previous_names": ["White Night Theme"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Whitelines",
+			"details": "https://github.com/TEParsons/Whitelines",
+			"labels": ["colour scheme", "color scheme", "stationery", "light", "orange", "grey", "silver"],
+			"releases": [
+				{
+					"sublime_text": ">=3149",
+					"tags": true
 				}
 			]
 		},
@@ -438,15 +439,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/phyllisstein/Wick",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Wiggle",
 			"details": "https://github.com/jarretth/Wiggle",
 			"releases": [
@@ -508,15 +500,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"details": "https://github.com/phyllisstein/Wind",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -717,6 +700,7 @@
 		{
 			"name": "Wombatish color scheme",
 			"details": "https://github.com/vlad-saling/wombatish",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -955,15 +939,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/jtwebb/WPath",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "WPCS Whitelist Flags",
 			"details": "https://github.com/barryceelen/sublime-wpcs-whitelist-flags",
 			"labels": ["wordpress", "wpcs", "wordpress coding standards"],
@@ -1080,8 +1055,21 @@
 			]
 		},
 		{
+			"name": "Writer Color Scheme",
+			"details": "https://github.com/tonsky/sublime-scheme-writer",
+			"donate": "https://www.patreon.com/tonsky",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Writing Color Scheme",
 			"details": "https://github.com/kmisiunas/sublime-writing-color-scheme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",

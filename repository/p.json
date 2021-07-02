@@ -69,14 +69,18 @@
 			"name": "PackageDev",
 			"details": "https://github.com/SublimeText/PackageDev",
 			"previous_names": ["AAAPackageDev"],
-			"author": ["guillermooo", "FichteFoll"],
+			"author": ["FichteFoll"],
 			"releases": [
 				{
 					"sublime_text": "<3154",
 					"tags": "st2-"
 				},
 				{
-					"sublime_text": ">=3154",
+					"sublime_text": "<4094",
+					"tags": "st3-v"
+				},
+				{
+					"sublime_text": ">=4094",
 					"tags": true
 				}
 			]
@@ -305,15 +309,6 @@
 			]
 		},
 		{
-			"details": "https://bitbucket.org/bgs_public/papyrus",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "default"
-				}
-			]
-		},
-		{
 			"name": "Papyrus Assembly",
 			"details": "https://github.com/Cipscis/Papyrus_Assembly",
 			"releases": [
@@ -453,28 +448,8 @@
 			]
 		},
 		{
-			"name": "Paste as Column",
-			"details": "https://bitbucket.org/Clams/sublimepastecolumn",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "default"
-				}
-			]
-		},
-		{
 			"name": "Paste as One Line",
 			"details": "https://github.com/joshdavenport/PasteAsOneLine",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Paste Laravel",
-			"details": "https://github.com/RobinMalfait/Laravel-paste",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -489,6 +464,20 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Paste Plus",
+			"details": "https://github.com/ggets/Sublime_PastePlus",
+			"readme": "https://raw.githubusercontent.com/ggets/Sublime_PastePlus/main/README.md",
+			"labels": ["text manipulation", "clipboard", "paste"],
+			"author": "GGets",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["windows"],
+					"tags": true
 				}
 			]
 		},
@@ -580,20 +569,6 @@
 			]
 		},
 		{
-			"name": "PasteSelOnClick",
-			"details": "https://bitbucket.org/Clams/pasteselonclick",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "default"
-				},
-				{
-					"sublime_text": ">=3000",
-					"branch": "st3"
-				}
-			]
-		},
-		{
 			"name": "PasteWrap",
 			"details": "https://github.com/daguej/sublime-pastewrap",
 			"labels": ["text manipulation", "clipboard"],
@@ -675,16 +650,6 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Peeko",
-			"details": "https://github.com/anxor/Peeko",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -1016,12 +981,35 @@
 			]
 		},
 		{
+			"name": "Phoenix LiveView Snippets",
+			"details": "https://github.com/sardaukar/phoenix_liveview_snippets",
+			"labels": ["elixir", "phoenix", "liveview", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "PHP Built-in WebServer",
 			"details": "https://github.com/astronaughts/SublimePHPBuiltinWebServer",
 			"releases": [
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "PHP CBF",
+			"details": "https://github.com/andremacola/sublime-PHP_CBF",
+			"issues": "https://github.com/andremacola/sublime-PHP_CBF/issues",
+			"labels": ["php", "phpcs", "formatting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1272,17 +1260,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "PhpDebugHelper",
-			"details": "https://github.com/yangxikun/sublime-phpdebughelper",
-			"labels": ["php debug"],
-			"releases": [
-				{
-					"sublime_text": "<3000",
 					"branch": "master"
 				}
 			]
@@ -1571,17 +1548,6 @@
 			]
 		},
 		{
-			"name": "PKs Color Scheme",
-			"details": "https://github.com/mjs7231/sublime-pkstheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "PL1 PLI Syntax",
 			"details": "https://github.com/guija/pl1",
 			"releases": [
@@ -1603,16 +1569,6 @@
 		},
 		{
 			"details": "https://github.com/mrmartineau/Placeholders",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Placester",
-			"details": "https://github.com/Placester/placester-st2-plugin",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1700,7 +1656,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1785,6 +1741,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Pointless",
+			"details": "https://github.com/pointless-lang/pointless-sublime/",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -1880,6 +1847,7 @@
 		{
 			"name": "Poppins - Color Scheme",
 			"details": "https://github.com/praveenpuglia/color_scheme_poppins",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1991,13 +1959,24 @@
 			]
 		},
 		{
-			"name": "Powder Sublime",
-			"details": "https://github.com/CasperLaiTW/powder-sublime",
-			"labels": ["pow", "powder", "ruby", "rvm"],
+			"name": "PovRay",
+			"details": "https://github.com/leoheck/sublime-povray",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Power System Tools Syntax",
+			"details":"https://github.com/dparrini/sublime_powersystems",
+			"labels": ["language syntax", "auto-complete"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
 				}
 			]
 		},
@@ -2032,11 +2011,17 @@
 			]
 		},
 		{
+			"name": "PowerShell",
 			"details": "https://github.com/SublimeText/PowerShell",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": "<3156",
+					"tags": "version/st3155/"
+				},
+				{
+					"sublime_text": ">=3156",
+					"tags": "version/st/"
 				}
 			]
 		},
@@ -2067,16 +2052,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "pqmarkup",
-			"details": "https://bitbucket.org/pqmarkup/sublime_pqmarkup",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -2271,16 +2246,6 @@
 			]
 		},
 		{
-			"name": "Primitive Filler",
-			"details": "https://github.com/francolam/primitivefiller",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Print to HTML",
 			"details": "https://github.com/grubernaut/sublimetext-print-to-html",
 			"labels": ["tasks", "printing", "utilities", "utils", "browser"],
@@ -2376,6 +2341,31 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Profile Switcher",
+			"details": "https://github.com/tonsky/sublime-profiles",
+			"donate": "https://www.patreon.com/tonsky",
+			"labels": ["preferences"],
+			"previous_names": ["Switch Settings"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Programmatic Key Bindings",
+			"details": "https://github.com/VonHeikemen/sublime-pro-key-bindings",
+			"donate": "https://www.buymeacoffee.com/vonheikemen",
+			"labels": ["keymap"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -2568,17 +2558,6 @@
 			]
 		},
 		{
-			"name": "Prototypo Syntax Highlighting",
-			"details": "https://github.com/byte-foundry/prototypo-sublimetext",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Pseudo Block Mode",
 			"details": "https://github.com/guija/pseudo_block_mode",
 			"releases": [
@@ -2622,6 +2601,17 @@
 		{
 			"name": "Pumpkin Color Scheme",
 			"details": "https://github.com/afonsopacifer/pumpkin",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PunchMeInTheFace Color Scheme",
+			"details": "https://github.com/tashrifsanil/PunchMeInTheFace-Color-Scheme",
 			"labels": ["color scheme"],
 			"releases": [
 				{
@@ -3102,18 +3092,8 @@
 			"previous_names": ["Python Package to Clipboard"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Python PEP8 Autoformat",
-			"details": "https://bitbucket.org/StephaneBunel/pythonpep8autoformat",
-			"releases": [
-				{
 					"sublime_text": "*",
-					"branch": "default"
+					"tags": true
 				}
 			]
 		},
@@ -3155,6 +3135,19 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "python-black",
+			"details": "https://github.com/thep0y/python-black",
+			"labels": [
+				"formatter"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
 				}
 			]
 		},

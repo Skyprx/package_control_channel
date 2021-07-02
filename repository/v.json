@@ -12,17 +12,6 @@
 			]
 		},
 		{
-			"name": "Vala",
-			"details": "https://github.com/Chipcius/ValaForSublime",
-			"labels": ["language syntax", "Vala"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Vala-TMBundle",
 			"details": "https://github.com/technosophos/Vala-TMBundle",
 			"labels": ["language syntax", "Vala"],
@@ -214,16 +203,6 @@
 			]
 		},
 		{
-			"name": "Ver",
-			"details": "https://github.com/nyx-platform/ver-tmbundle",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Verbose",
 			"details": "https://github.com/Starli0n/SublimeVerbose",
 			"releases": [
@@ -318,6 +297,18 @@
 			]
 		},
 		{
+			"name": "View Bookmarks",
+			"details": "https://github.com/adam-zethraeus/SublimeViewBookmarks",
+			"labels": ["bookmarks", "file navigation"],
+			"previous_names": ["LsBookmarks"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "View In Browser",
 			"details": "https://github.com/adampresley/sublime-view-in-browser",
 			"releases": [
@@ -395,16 +386,6 @@
 		{
 			"name": "Vintage Escape",
 			"details": "https://github.com/tonymagro/VintageEscape",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Vintage Numbers",
-			"details": "https://github.com/ignacysokolowski/SublimeVintageNumbers",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -583,6 +564,18 @@
 			]
 		},
 		{
+			"name": "Visual Studio Code Plus Scheme",
+			"details": "https://github.com/vbasky/sublime-vscode-plus",
+			"issues": "https://github.com/vbasky/sublime-vscode-plus/issues",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Visual Studio Dark",
 			"details": "https://github.com/nikeee/visual-studio-dark",
 			"labels": ["color scheme"],
@@ -688,18 +681,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Vorhees",
-			"details": "https://github.com/frankjonen/vorhees/",
-			"labels": ["color scheme", "formatting", "language syntax"],
-			"readme": "https://raw.githubusercontent.com/frankjonen/vorhees/master/README.md",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
 				}
 			]
 		},
@@ -812,16 +793,6 @@
 		{
 			"name": "Vuejs Snippets Airbnb",
 			"details": "https://github.com/kavalcante/vuejs-snippets-airbnb-sublime",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Vuetify",
-			"details": "https://github.com/vuetifyjs/vuetify-sublime",
 			"releases": [
 				{
 					"sublime_text": "*",

@@ -15,15 +15,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/khiltd/Abacus",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "ABAP",
 			"details": "https://github.com/flaiker/abap-st3",
 			"labels": ["language syntax"],
@@ -61,6 +52,17 @@
 			"details": "https://github.com/tenforwardconsulting/abcss",
 			"author": "marknorman",
 			"labels": ["formatting", "sorting"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Abella",
+			"details": "https://github.com/JimmyZJX/SublimeAbella",
+			"labels": ["language syntax", "proof assistant"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -176,6 +178,17 @@
 			]
 		},
 		{
+			"name": "Acme",
+			"details": "https://github.com/multiversecoder/Acme",
+			"labels": ["color scheme", "theme", "acme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Acme Color Scheme",
 			"details": "https://github.com/zaynali53/acme-color-scheme",
 			"labels": ["color scheme", "javascript"],
@@ -216,22 +229,6 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Active4D",
-			"details": "https://github.com/aparajita/active4d-st3",
-			"labels": ["language syntax"],
-			"releases": [
-				{
-					"sublime_text": ">=3100",
-					"tags": true
-				},
-				{
-					"base": "https://github.com/aparajita/active4d-sublime",
-					"sublime_text": "<3000",
-					"tags": true
 				}
 			]
 		},
@@ -349,16 +346,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3114",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Adianti Snippets for PHP",
-			"details": "https://github.com/dmonteirosouza/adianti-snippets",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -602,18 +589,6 @@
 			]
 		},
 		{
-			"name": "AlgoLang",
-			"details": "https://bitbucket.org/lsystems/algo-lang-sublime",
-			"labels": ["language syntax"],
-			"issues": "https://bitbucket.org/lsystems/algo-lang-sublime/issues?status=new&status=open",
-			"releases": [
-				{
-					"sublime_text": ">=3092",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Align Arguments",
 			"details": "https://github.com/denniskempin/align-arguments",
 			"labels": ["formatting"],
@@ -660,6 +635,17 @@
 			]
 		},
 		{
+			"name": "Alpen Color Scheme",
+			"details": "https://github.com/luxelego/alpen_color_scheme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Alphanumeric Markdown Footnote",
 			"details": "https://github.com/TehShrike/Sublime-AlphanumericMarkdownFootnote",
 			"releases": [
@@ -678,7 +664,7 @@
 					"branch": "master"
 				}
 			]
-		},
+		},	
 		{
 			"name": "Alrighty Snippets",
 			"details": "https://github.com/alrighty/alrighty-snippets-sublime",
@@ -718,16 +704,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Amalgamate",
-			"details": "https://github.com/donteatyellowsnow/amalgamate",
-			"releases": [
-				{
-					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -848,13 +824,14 @@
 			]
 		},
 		{
-			"name": "AmpScript Highlighter",
-			"details": "https://github.com/seanja/ampscript-st2",
+			"name": "AMPscript Syntax Highlighter",
+			"previous_names": ["AmpScript Highlighter"],
+			"details": "https://github.com/wvpv/ampscript-syntax-highlighter",
 			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1482,16 +1459,6 @@
 			]
 		},
 		{
-			"details": "https://github.com/mingyuanyun-open/appcloud_subl",
-			"name": "APPCloud",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Appealr",
 			"details": "https://github.com/manikrathee/appealr",
 			"labels": ["color scheme"],
@@ -1725,17 +1692,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Arnold Clark Snippets for Ruby",
-			"details": "https://github.com/arnoldclark/ac-ruby-snippets",
-			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -2097,6 +2053,18 @@
 			]
 		},
 		{
+			"name": "Auro Color Scheme",
+			"previous_names": ["Auro Color scheme"],
+			"details": "https://github.com/Ryan-da-ghost/Auro-theme",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Aurora Color Scheme",
 			"details": "https://github.com/expalmer/aurora-theme",
 			"labels": ["color scheme"],
@@ -2115,16 +2083,6 @@
 				{
 					"sublime_text": "*",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Auto Encoding for Python",
-			"details": "https://github.com/simme--/Auto-Encoding-for-Python",
-			"releases": [
-				{
-					"sublime_text": "<3000",
-					"branch": "master"
 				}
 			]
 		},
@@ -2367,6 +2325,18 @@
 			]
 		},
 		{
+			"name": "AutoMatlab",
+			"details": "https://github.com/asparc/AutoMatlab",
+			"labels": ["auto-complete", "snippets", "documentation", "build system", "matlab"],
+			"releases": [
+				{
+					"platforms": ["windows"],
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "AutoPEP8",
 			"details": "https://github.com/wistful/SublimeAutoPEP8",
 			"labels": ["linting", "formatting"],
@@ -2400,7 +2370,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -2465,6 +2435,17 @@
 			]
 		},
 		{
+			"name": "AutoSplit",
+			"details": "https://github.com/egnartsms/sublime-autosplit",
+			"author": "Serhii Mozghovyi",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Autotools",
 			"details": "https://github.com/ptomato/sublime_autotools",
 			"labels": ["language syntax"],
@@ -2498,17 +2479,6 @@
 		{
 			"name": "AVA",
 			"details": "https://github.com/avajs/sublime-ava",
-			"labels": ["snippets", "javascript", "nodejs", "testing", "auto-complete", "completions"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "AVA Standard",
-			"details": "https://github.com/sotojuan/sublime-ava-standard",
 			"labels": ["snippets", "javascript", "nodejs", "testing", "auto-complete", "completions"],
 			"releases": [
 				{

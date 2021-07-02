@@ -35,6 +35,17 @@
 			]
 		},
 		{
+			"name": "UCFHighlighter",
+			"details": "https://github.com/LDprg/UCFHighlighter",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "udev rules",
 			"details": "https://github.com/tijn/udev.tmLanguage",
 			"labels": ["language syntax"],
@@ -80,6 +91,17 @@
 			"name": "Ultimate Dark",
 			"details": "https://github.com/rubjo/ultimate-dark",
 			"labels": ["dark", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Ultimate Dark Neo",
+			"details": "https://github.com/rubjo/ultimate-dark-neo",
+			"labels": ["dark", "theme", "color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -231,16 +253,6 @@
 			]
 		},
 		{
-			"name": "UnicodeTeX",
-			"details": "https://github.com/neilanderson/UnicodeTeX",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "UNIFA",
 			"previous_names": ["UFA Syntax"],
 			"details": "https://github.com/sal0max/sublime-unifa",
@@ -312,17 +324,6 @@
 				{
 					"sublime_text": ">=3000",
 					"tags": true
-				}
-			]
-		},
-		{
-			"name": "Unity C# Snippets",
-			"details": "https://github.com/michelmcbride/UnitySublimeTextSnippets",
-			"labels": ["snippets"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
 				}
 			]
 		},
@@ -444,17 +445,30 @@
 			]
 		},
 		{
-			"details": "https://github.com/SublimeText/UnofficialDocs",
+			"name": "Unquote",
+			"details": "https://github.com/mradamh/sublime-unquote",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
 		{
-			"name": "Unquote",
-			"details": "https://github.com/mradamh/sublime-unquote",
+			"name": "Unreal Shader",
+			"details": "https://github.com/hellokenlee/SublimeUnrealShader",
+			"labels": ["Shader","language syntax", "goto file", "Unreal", "UE4"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Unreal Snippets",
+			"details": "https://github.com/awforsythe/sublime-unreal-snippets",
+			"labels": ["snippets", "Unreal", "UE4"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -548,6 +562,17 @@
 				}
 			]
 		},
+			{
+			"name": "Urtext",
+			"details": "https://github.com/nbeversl/urtext_sublime",
+			"labels": ["plaintext","notes","writing"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
 		{
 			"name": "userinterface.js Snippets",
 			"details": "https://github.com/thoughtsunificator/userinterface.js-snippets-sublime",
@@ -563,6 +588,17 @@
 			"name": "UseStrict",
 			"details": "https://github.com/phts/UseStrict",
 			"labels": ["javascript"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "USFOS",
+			"details": "https://github.com/ckunte/usfos_st",
+			"labels": ["language syntax", "usfos"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
